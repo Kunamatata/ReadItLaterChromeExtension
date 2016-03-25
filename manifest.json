@@ -1,0 +1,17 @@
+{
+    "name": "ReadItLater",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Get the list of french streamers",
+    "browser_action": {
+        "default_icon": "img/icon.png"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": ["js/background.js"]
+    },
+    "permissions": [
+        "tabs",
+        "http://127.0.0.1:8000/*"
+    ]
+}
